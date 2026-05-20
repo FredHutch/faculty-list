@@ -29,6 +29,12 @@ uv sync
 
 ## Usage
 
+### Get Fresh URL List
+
+```
+uv run fetch-faculty-urls.py > faculty-urls-2026-05-07.txt
+```
+
 ### Basic Usage
 
 ```bash
@@ -83,6 +89,7 @@ The utility generates a CSV file with the following columns:
 - **Clinical Expertise**: Clinical specialties and expertise areas
 - **Current Studies**: Current research studies and projects
 - **URL**: Source faculty profile URL
+- **Last Modified**: date/time page was last updated
 
 ## Progress Tracking
 
